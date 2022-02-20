@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Project\C++\GDCTest\Debug\GDCTest.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Project\C++\GDCTest\Debug\LightEffect.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Project\C++\GDCTest\Debug\NormalEffect.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

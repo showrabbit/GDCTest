@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{0432140b-7521-4927-91a8-9a97e7bd5584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserInput">
+      <UniqueIdentifier>{13d75a72-5642-4fd6-8a57-074f28480be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{941cef9b-1ff1-4c49-9c0a-389ca7fd7ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{4cbf6222-c2ef-4a31-b45d-2f70d2b9aadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{b96008b8-ced5-4241-bc35-2c26cea4c3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{b2abbebb-e4f5-46b6-ae8b-8556e06a86b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PBR">
+      <UniqueIdentifier>{8e135618-d2ba-44d6-96e9-ff2234530f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{164069d7-d758-4b42-b1a0-12ca4173eb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{727503f2-acf8-424e-aed1-c4626247b0f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="WVPConstantBuffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilView.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectInputLayoutElementDesc.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetType.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInputListener.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInputTrigger.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInputManager.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInputKeyboard.cpp">
+      <Filter>UserInput</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBase.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LightDirect.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PBRLightBase.cpp">
+      <Filter>PBR</Filter>
+    </ClCompile>
+    <ClCompile Include="PBRMatrial.cpp">
+      <Filter>PBR</Filter>
+    </ClCompile>
+    <ClCompile Include="PBRCamera.cpp">
+      <Filter>PBR</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshCube.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBall.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WVPConstantBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilView.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectInputLayoutElementDesc.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetType.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInputListener.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInputTrigger.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInputManager.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInputKeyboard.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="UserInputParam.h">
+      <Filter>UserInput</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBase.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LightDirect.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRLightBase.h">
+      <Filter>PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRMatrial.h">
+      <Filter>PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRCamera.h">
+      <Filter>PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCube.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBall.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="NormalEffect.hlsl">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+    <FxCompile Include="LightEffect.hlsl">
+      <Filter>资源文件</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
